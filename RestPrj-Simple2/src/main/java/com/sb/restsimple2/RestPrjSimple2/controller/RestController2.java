@@ -11,7 +11,7 @@ public class RestController2 {
 	
 	@GetMapping("/welcome2/{name}")
 	public String getMessage(@PathVariable String name) {
-		String sayHi = "Hi "+name;
+		String sayHi = "Hi "+name;//yes
 		System.out.println(sayHi);
 		return sayHi;
 	}
